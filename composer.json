@@ -1,0 +1,70 @@
+{
+    "name": "lara-zeus/akin",
+    "description": "Zeus Akin is another filament theme",
+    "keywords": [
+        "laravel",
+        "lara-zeus",
+        "akin",
+        "sky",
+        "theme",
+        "diana",
+        "artemis",
+        "filamentphp"
+    ],
+    "homepage": "https://larazeus.com/akin",
+    "support": {
+        "issues": "https://github.com/lara-zeus/akin/issues",
+        "source": "https://github.com/lara-zeus/akin"
+    },
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "php coder",
+            "email": "info@larazeus.com",
+            "role": "Owner"
+        }
+    ],
+
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.2.3",
+        "illuminate/support": "^10.0|^11.0",
+        "spatie/laravel-package-tools": "^1.15",
+        "ryangjchandler/blade-tabler-icons": "^2.3"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "nunomaduro/collision": "^7.0",
+        "nunomaduro/larastan": "^2.0.1",
+        "nunomaduro/phpinsights": "^2.8",
+        "orchestra/testbench": "^8.0",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-arch": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "pestphp/pest-plugin-livewire": "^2.1",
+        "phpstan/extension-installer": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraZeus\\Akin\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraZeus\\Akin\\AkinServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
