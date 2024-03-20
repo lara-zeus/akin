@@ -27,7 +27,7 @@ class AkinTheme implements Plugin
     public static function get(): static
     {
         // @phpstan-ignore-next-line
-        return filament('zeus-bolt');
+        return filament('zeus-akin');
     }
 
     public function boot(Panel $panel): void
