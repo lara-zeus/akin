@@ -26,14 +26,22 @@
 
 And more on the way.
 
-## Demo
+## Installation
 
-> Visit our demo site: https://demo.larazeus.com
+### composer
 
+```bash
+composer require lara-zeus/akin
+```
 
-## Full Documentation
+### register the plugin in your panel:
+`AkinTheme::make(),`
 
-> Visit our website to get the complete documentation: https://larazeus.com/docs/akin
+### add this to your custom theme
+
+```css
+@import '/vendor/lara-zeus/akin/resources/css/theme.css';
+```
 
 ## Changelog
 
