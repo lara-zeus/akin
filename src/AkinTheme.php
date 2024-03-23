@@ -41,14 +41,6 @@ class AkinTheme implements Plugin
 
         FilamentColor::register([
             ...collect(Color::all())->forget(['slate', 'gray', 'zinc', 'neutral', 'stone'])->toArray(),
-            'gray' => Color::Stone,
-            'primary' => Color::Sky,
-            'secondary' => Color::Amber,
-
-            'danger' => Color::Red,
-            'info' => Color::Blue,
-            'success' => Color::Green,
-            'warning' => Color::Yellow,
         ]);
     }
 }
