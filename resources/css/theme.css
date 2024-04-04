@@ -1,4 +1,4 @@
-.fi-icon-btn {
+.fi-sidebar-header .fi-icon-btn {
     @apply text-primary-600 !important;
 
     &:hover {
