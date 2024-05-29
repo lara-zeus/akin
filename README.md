@@ -35,7 +35,12 @@ composer require lara-zeus/akin
 ```
 
 ### register the plugin in your panel:
-`AkinTheme::make(),`
+
+```php
+->plugins([
+    \LaraZeus\Akin\AkinTheme::make(),
+])
+```
 
 ### add this to your custom theme
 
