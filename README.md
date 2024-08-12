@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-akin.png?v=3" /></a>
+<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-akin.webp?v=3" /></a>
 </p>
 
 <h4 align="center">Lara-zeus Akin، telling a story with a design ... another filament theme.</h4>
@@ -15,7 +15,7 @@
 ## Support Filament
 
 <a href="https://github.com/sponsors/danharrin">
-<img alt="filament-logo" src="https://larazeus.com/images/filament-sponsor-banner.png">
+<img alt="filament-logo" src="https://larazeus.com/images/filament-sponsor-banner.webp">
 </a>
 
 ## features
