@@ -27,8 +27,7 @@
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "spatie/laravel-package-tools": "^1.15",
-        "secondnetwork/blade-tabler-icons": "^3.30"
+        "spatie/laravel-package-tools": "^1.15"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
