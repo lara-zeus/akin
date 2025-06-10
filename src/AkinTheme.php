@@ -6,6 +6,7 @@ use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Colors\Color;
 use Filament\Support\Facades\FilamentColor;
+use Filament\Support\Facades\FilamentIcon;
 
 class AkinTheme implements Plugin
 {
@@ -31,15 +32,12 @@ class AkinTheme implements Plugin
 
     public function boot(Panel $panel): void
     {
-        // dropping this, to remove `ryangjchandler/blade-tabler-icons`
-        // you can move this to your service provider and install the icons package you want.
-
-        /*FilamentIcon::register([
+        FilamentIcon::register([
             'panels::sidebar.collapse-button' => 'tabler-layout-sidebar-right-collapse-filled',
             'panels::sidebar.expand-button' => 'tabler-layout-sidebar-left-collapse-filled',
             'panels::pages.dashboard.navigation-item' => 'tabler-home',
             'panels::topbar.open-database-notifications-button' => 'tabler-bell',
-        ]);*/
+        ]);
 
         FilamentColor::register([
             ...collect(Color::all())->forget(['slate', 'gray', 'zinc', 'neutral', 'stone'])->toArray(),
