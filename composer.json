@@ -7,7 +7,6 @@
         "akin",
         "sky",
         "theme",
-        "diana",
         "artemis",
         "filamentphp"
     ],
@@ -26,13 +25,14 @@
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
-        "spatie/laravel-package-tools": "^1.19"
+        "filament/filament": "^4.0",
+        "spatie/laravel-package-tools": "^1.19",
+        "lara-zeus/tabler-icons-enum": "^1.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
-        "nunomaduro/larastan": "^2.0.1",
-        "orchestra/testbench": "^8.0",
+        "larastan/larastan": "^2.0.1",
+        "orchestra/testbench": "^9.0",
         "phpstan/extension-installer": "^1.1"
     },
     "autoload": {
@@ -53,5 +53,6 @@
             ]
         }
     },
+    "minimum-stability": "beta",
     "prefer-stable": true
 }
