@@ -1,45 +1,45 @@
 .fi-sidebar-header .fi-icon-btn {
-    @apply text-primary-600 !important;
+    @apply text-primary-600;
 
     &:hover {
-        @apply text-primary-800 !important;
+        @apply text-primary-800;
     }
 }
 
 .fi-body {
-    @apply bg-gray-50 dark:bg-gray-950 !important;
+    @apply bg-gray-50 dark:bg-gray-950;
 }
 
 .fi-sidebar {
-    @apply bg-white dark:bg-gray-950 !important;
+    @apply bg-white dark:bg-gray-950;
 }
 
 .fi-sidebar-header {
-    @apply ring-0 bg-transparent shadow-none text-primary-600 dark:text-primary-500 border-0 !important;
+    @apply ring-0 bg-transparent shadow-none text-primary-600 dark:text-primary-500 border-0;
 }
 
 .fi-sidebar {
     & .item-to-hide-when-collapsed {
-        @apply hidden !important;
+        @apply hidden;
     }
 
     & .fi-sidebar-group {
-        @apply gap-0 !important;
+        @apply gap-0;
     }
 
     &.fi-sidebar-open {
         & .item-to-hide-when-collapsed {
-            @apply block !important;
+            @apply block;
         }
     }
 
 
     & .fi-sidebar-item {
         & .fi-sidebar-item-button {
-            @apply gap-2 !important;
+            @apply gap-2;
 
             &:hover {
-                @apply bg-gray-200/30 dark:bg-gray-800/30 !important;
+                @apply bg-gray-200/30 dark:bg-gray-800/30;
             }
         }
 
@@ -47,59 +47,59 @@
 
             & .fi-sidebar-item-grouped-border {
                 & :first-child {
-                    @apply bg-gray-400 !important;
+                    @apply bg-gray-400;
                 }
 
                 & :nth-child(2) {
-                    @apply bg-gray-400 !important;
+                    @apply bg-gray-400;
                 }
 
                 & :last-child {
-                    @apply bg-primary-200 !important;
+                    @apply bg-primary-200;
                 }
             }
 
             & .fi-sidebar-item-icon,
             & .fi-sidebar-item-label {
-                @apply text-white !important;
+                @apply text-white;
             }
 
             & .fi-sidebar-item-button {
-                @apply bg-primary-600 dark:bg-primary-600 !important;
+                @apply bg-primary-600 dark:bg-primary-600;
             }
         }
 
         &:not(.fi-sidebar-item-active) {
             & .fi-sidebar-item-icon {
-                @apply text-gray-800 dark:text-gray-300 !important;
+                @apply text-gray-800 dark:text-gray-300;
             }
 
             & .fi-sidebar-item-label {
-                @apply text-gray-800 dark:text-gray-300 !important;
+                @apply text-gray-800 dark:text-gray-300;
             }
         }
 
         & .fi-sidebar-item-label {
-            @apply font-medium !important;
+            @apply font-medium;
         }
     }
 
     & .fi-sidebar-group-label {
-        @apply text-gray-500 dark:text-gray-500 !important;
+        @apply text-gray-500 dark:text-gray-500;
     }
 
     & .fi-sidebar-item-button {
-        @apply py-2.5 transition-colors !important;
+        @apply py-2.5 transition-colors;
     }
 
     & .fi-sidebar-nav {
-        @apply shadow-xl pt-2 gap-y-6 border-e dark:border-e-gray-900 !important;
+        @apply shadow-xl pt-2 gap-y-6;
 
         & > ul {
-            @apply gap-0 !important;
+            @apply gap-0;
 
             & > li {
-                @apply py-2.5 border-b border-gray-200 dark:border-gray-800 first:pt-0 last:pb-0 last:border-0 !important;
+                @apply py-2.5 border-b border-gray-200 dark:border-gray-800 first:pt-0 last:pb-0 last:border-0;
             }
         }
     }
@@ -110,33 +110,33 @@
     @apply flex-none;
 
     & > nav {
-        @apply bg-white dark:bg-gray-950 border-b dark:border-b-gray-900 ring-0 shadow-none !important;
+        @apply bg-white dark:bg-gray-950 border-b dark:border-b-gray-900 ring-0 shadow-none;
 
         & > .fi-icon-btn:first-child {
-            @apply text-gray-800 !important;
+            @apply text-gray-800;
         }
     }
 }
 
 
 .fi-tabs {
-    @apply ring-0 bg-gray-200/50 shadow-none dark:bg-white/5 rounded-xl p-[0.3125rem] !important;
+    @apply ring-0 bg-gray-200/50 shadow-none dark:bg-white/5 rounded-xl p-[0.3125rem];
 }
 
 .fi-tabs-item {
-    @apply rounded-lg px-4 py-2 !important;
+    @apply rounded-lg px-4 py-2;
 
     &:not(.fi-tabs-item-active) {
-        @apply hover:bg-transparent  !important;
+        @apply hover:bg-transparent ;
 
         & .fi-tabs-item-label {
-            @apply text-gray-900/40 transition-none hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300 !important;
+            @apply text-gray-900/40 transition-none hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300;
         }
     }
 }
 
 .fi-tabs-item-active {
-    @apply bg-white dark:bg-gray-950 shadow shadow-gray-400/50 font-semibold dark:shadow-gray-950/50 !important;
+    @apply bg-white dark:bg-gray-950 shadow shadow-gray-400/50 font-semibold dark:shadow-gray-950/50;
 
     & .fi-tabs-item-label {
         @apply dark:text-white;
@@ -144,51 +144,51 @@
 }
 
 .fi-ta-ctn, .fi-fo-tabs, .fi-section, .fi-btn:not(.fi-btn-color-primary):not(.fi-btn-color-info):not(.fi-btn-color-secondary):not(.fi-btn-color-danger), .fi-wi-stats-overview-stat {
-    @apply ring-0 border border-gray-300/80 shadow-md shadow-gray-200/50 dark:border-gray-700/10 dark:shadow-none !important;
+    @apply ring-0 border border-gray-300/80 shadow-md shadow-gray-200/50 dark:border-gray-700/10 dark:shadow-none;
 }
 
 .fi-ta-ctn,
 .fi-ta-ctn table {
-    @apply divide-gray-300/80 dark:divide-gray-700 !important;
+    @apply divide-gray-300/80 dark:divide-gray-700;
 }
 
 .fi-ta-ctn, .fi-dropdown-panel, .fi-modal-window {
-    @apply dark:bg-gray-950 !important;
+    @apply dark:bg-gray-950;
 }
 
 .fi-dropdown-panel {
-    @apply shadow-xl shadow-gray-600/10 dark:ring-0 dark:border dark:border-gray-500/30 !important;
+    @apply shadow-xl shadow-gray-600/10 dark:ring-0 dark:border dark:border-gray-500/30;
 }
 
 .fi-input-wrp {
-    @apply ring-0 border border-gray-300/80 rounded-lg shadow-none transition-none min-h-[2.625rem] items-center shadow-gray-200/50 dark:border-gray-700/70 dark:shadow-none dark:bg-white/[0.025] focus-within:border-primary-600 focus-within:outline-1 focus-within:ring-1 focus-within:ring-primary-600 focus-within:outline-primary-600 dark:focus-within:border-primary-600 dark:focus-within:outline-1 dark:focus-within:ring-1 dark:focus-within:ring-primary-600 !important;
+    @apply ring-0 border border-gray-300/80 rounded-lg shadow-none transition-none min-h-[2.625rem] items-center shadow-gray-200/50 dark:border-gray-700/70 dark:shadow-none dark:bg-white/[0.025] focus-within:border-primary-600 focus-within:outline-1 focus-within:ring-1 focus-within:ring-primary-600 focus-within:outline-primary-600 dark:focus-within:border-primary-600 dark:focus-within:outline-1 dark:focus-within:ring-1 dark:focus-within:ring-primary-600;
 
     &.fi-fo-select {
-        @apply shadow shadow-gray-200/50 dark:shadow-none !important;
+        @apply shadow shadow-gray-200/50 dark:shadow-none;
 
         & .choices__placeholder {
-            @apply text-gray-400 dark:text-gray-400 !important;
+            @apply text-gray-400 dark:text-gray-400;
         }
 
         & .choices__list--dropdown {
-            @apply ring-0 border border-gray-300/80 dark:border-gray-700 shadow-gray-300/50 dark:shadow-gray-700/50 p-0 bg-white dark:bg-gray-900 dark:shadow !important;
+            @apply ring-0 border border-gray-300/80 dark:border-gray-700 shadow-gray-300/50 dark:shadow-gray-700/50 p-0 bg-white dark:bg-gray-900 dark:shadow;
 
             & .choices__input {
-                @apply border-solid border-0 border-b border-gray-200 dark:border-gray-800 px-3 placeholder-gray-400 dark:placeholder-gray-500 !important;
+                @apply border-solid border-0 border-b border-gray-200 dark:border-gray-800 px-3 placeholder-gray-400 dark:placeholder-gray-500;
             }
 
             & *[role="listbox"] {
-                @apply p-1 !important;
+                @apply p-1;
 
                 & > *[role="option"] {
-                    @apply px-2 !important;
+                    @apply px-2;
 
                     &.is-highlighted {
-                        @apply bg-gray-100 dark:bg-gray-800 !important;
+                        @apply bg-gray-100 dark:bg-gray-800;
                     }
 
                     &.choices__item--disabled {
-                        @apply text-gray-400 dark:text-gray-500 !important;
+                        @apply text-gray-400 dark:text-gray-500;
                     }
                 }
             }
@@ -197,91 +197,91 @@
 }
 
 .fi-fo-field-wrp > div {
-    @apply gap-y-1 !important;
+    @apply gap-y-1;
 }
 
 .fi-fo-field-wrp-label > span {
-    @apply font-semibold !important;
+    @apply font-semibold;
 }
 
 html:is(.dark) {
     & .tippy-box {
-        @apply bg-gray-950 shadow-gray-600 !important;
+        @apply bg-gray-950 shadow-gray-600;
 
         & .tippy-arrow {
-            @apply text-gray-950 !important;
+            @apply text-gray-950;
         }
 
         &[data-placement^='top'] .tippy-arrow {
-            @apply border-t-gray-950 !important;
+            @apply border-t-gray-950;
         }
 
         &[data-placement^='bottom'] .tippy-arrow {
-            @apply border-b-gray-950 !important;
+            @apply border-b-gray-950;
         }
 
         &[data-placement^='left'] .tippy-arrow {
-            @apply border-l-gray-950 !important;
+            @apply border-l-gray-950;
         }
 
         &[data-placement^='right'] .tippy-arrow {
-            @apply border-r-gray-950 !important;
+            @apply border-r-gray-950;
         }
     }
 }
 
 .fi-section {
-    @apply dark:bg-gray-950 !important;
+    @apply dark:bg-gray-950;
 
     & .fi-fo-tabs,
     & .fi-sections {
-        @apply shadow-none dark:border-gray-700/30 !important;
+        @apply shadow-none dark:border-gray-700/30;
     }
 
     &.fi-collapsed {
         & .fi-section-header {
-            @apply rounded-b-[inherit] !important;
+            @apply rounded-b-[inherit];
         }
     }
 
     & .fi-section-header {
-        @apply flex bg-gray-100 rounded-t-[inherit] dark:bg-gray-950 !important;
+        @apply flex bg-gray-100 rounded-t-[inherit] dark:bg-gray-950;
 
         & .fi-section-header-heading {
-            @apply text-gray-900 dark:text-white font-extrabold !important;
+            @apply text-gray-900 dark:text-white font-extrabold;
         }
 
         & .fi-section-header-icon {
-            @apply block w-5 h-5 pt-1  !important;
+            @apply block w-5 h-5 pt-1 ;
         }
     }
 
     & .fi-section-content-ctn {
-        @apply border-gray-300/80 dark:border-gray-700/30 !important;
+        @apply border-gray-300/80 dark:border-gray-700/30;
     }
 }
 
 .fi-fo-tabs {
-    @apply dark:bg-gray-950 !important;
+    @apply dark:bg-gray-950;
 
     & .fi-tabs {
-        @apply bg-gray-50 border-gray-300/80 rounded-b-none p-2 gap-0 rounded-t-[inherit] dark:bg-gray-950 dark:border-gray-700/30 !important;
+        @apply bg-gray-50 border-gray-300/80 rounded-b-none p-2 gap-0 rounded-t-[inherit] dark:bg-gray-950 dark:border-gray-700/30;
     }
 
     & .fi-tabs-item:has(.fi-badge) {
-        @apply px-2 !important;
+        @apply px-2;
     }
 
     & .fi-tabs-item:not(.fi-tabs-item-active) {
-        @apply border border-transparent hover:bg-transparent !important;
+        @apply border border-transparent hover:bg-transparent;
 
         & .fi-tabs-item-label {
-            @apply text-gray-900 transition-none hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300 !important;
+            @apply text-gray-900 transition-none hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300;
         }
     }
 
     & .fi-tabs-item-active {
-        @apply shadow-none border border-gray-300/80 dark:border-transparent dark:bg-white/5 !important;
+        @apply shadow-none border border-gray-300/80 dark:border-transparent dark:bg-white/5;
 
         & .fi-tabs-item-label {
             @apply dark:text-white;
@@ -291,40 +291,40 @@ html:is(.dark) {
     & .fi-fo-tabs-tab {
         & .fi-section,
         & .fi-fo-tabs-tab {
-            @apply shadow-none dark:border-gray-700/30 !important;
+            @apply shadow-none dark:border-gray-700/30;
         }
     }
 }
 
 .fi-header-heading {
-    @apply dark:text-white sm:pt-1 font-normal !important;
+    @apply dark:text-white sm:pt-1 font-normal;
 }
 
 .fi-multilang-input {
-    @apply relative !important;
+    @apply relative;
 
     & > div {
-        @apply m-0 p-0 !important;
+        @apply m-0 p-0;
     }
 
     .fi-tabs {
-        @apply absolute end-0 bottom-full bg-transparent p-0 !important;
+        @apply absolute end-0 bottom-full bg-transparent p-0;
     }
 
     .fi-tabs-item {
-        @apply border-b-[3px] border-transparent !important;
+        @apply border-b-[3px] border-transparent;
 
         &:not(.fi-tabs-item-active) {
-            @apply hover:bg-transparent !important;
+            @apply hover:bg-transparent;
         }
 
         &.fi-tabs-item-active {
-            @apply border-primary-600 dark:border-primary-600 !important;
+            @apply border-primary-600 dark:border-primary-600;
         }
     }
 
 }
 
 .fi-form-actions > .fi-ac {
-    @apply justify-end !important;
+    @apply justify-end;
 }
