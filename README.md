@@ -12,6 +12,14 @@
 
 </p>
 
+## Versions
+
+| Plugin Version | Filament Version |
+| --- | --- |
+| `v1.x` | `v2.x` |
+| `v2.x` | `v3.x` |
+| `v3.x` | `v3.x` |
+
 ## Support Filament
 
 <a href="https://github.com/sponsors/danharrin">
